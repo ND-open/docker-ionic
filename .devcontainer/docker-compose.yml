@@ -1,0 +1,13 @@
+version: '3'
+services:
+  docker-ionic:
+    container_name: docker-ionic-main-container
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../:/docker-ionic:rw
+    ports:
+      - '5000:5000'

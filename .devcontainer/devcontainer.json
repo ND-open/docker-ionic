@@ -1,0 +1,20 @@
+{
+    "name": "docker-ionic",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "docker-ionic",
+    "workspaceFolder": "/docker-ionic",
+    "extensions": [
+        "fudge.auto-using",
+        "gruntfuggly.todo-tree",
+        "sibiraj-s.vscode-scss-formatter",
+        "firefox-devtools.vscode-firefox-debug",
+        "msjsdiag.debugger-for-chrome",
+        "prisma.prisma",
+        "dbaeumer.vscode-eslint",
+        "mhutchie.git-graph",
+        "mechatroner.rainbow-csv",
+        "stylelint.vscode-stylelint",
+        "pflannery.vscode-versionlens",
+        "davidanson.vscode-markdownlint"
+    ]
+}
